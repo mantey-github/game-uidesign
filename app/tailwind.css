@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    body {
+        font-family: "Grandstander", "Segoe UI", "Roboto", "Ubuntu", "Ubuntu", "Helvetica Neue", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: #115377;
+        color: #121212;
+        margin: 0;
+        vertical-align: middle;
+        line-height: 1.5;
+    }
+}
