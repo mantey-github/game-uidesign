@@ -1,41 +1,25 @@
-# Welcome to Remix!
+# Design from #daretoshare24 challenged on [Twitter](https://x.com/uxderrick/status/1745841051825258846?s=20)!
 
-- [Remix Docs](https://remix.run/docs)
+- HTML & CSS + (Tailwind) with Remix Framework
 
-## Fly Setup
+- Deployed to [fly.io](https://fly.io). Demo URL [https://game-uidesign-by-derrick-co-mantey.fly.dev](https://game-uidesign-by-derrick-co-mantey.fly.dev)
 
-1. [Install `flyctl`](https://fly.io/docs/getting-started/installing-flyctl/)
+- Figma [Designs](https://twitter.com/sirmike_dev/status/1745850424194711761?t=3H35z2mzmIST37YA5QNWfA&s=19) from Challenge
 
-2. Sign up and log in to Fly
+## Features
 
-```sh
-flyctl auth signup
-```
+- Games Screens
 
-3. Setup Fly. It might ask if you want to deploy, say no since you haven't built the app yet.
+## How to Run Locally
 
-```sh
-flyctl launch
-```
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the app locally with `npm run dev`.
 
-## Development
+## Screenshots or Demo
 
-From your terminal:
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/2cf2120c17aa415ab98e3e686b3fcf68?sid=44c74aab-5142-4d21-9be4-aacfd8fcfc0c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-```sh
-npm run dev
-```
+## Contributing
 
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-If you've followed the setup instructions already, all you need to do is run this:
-
-```sh
-npm run deploy
-```
-
-You can run `flyctl info` to get the url and ip address of your server.
-
-Check out the [fly docs](https://fly.io/docs/getting-started/node/) for more information.
+Contributions are welcome! If you have an actual gaming app in mind 😅.
